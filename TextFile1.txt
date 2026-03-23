@@ -1,0 +1,22 @@
+# ProductService - Onion Architecture & CQRS Case Study
+
+Bu proje, modern yazılım mimarileri kullanılarak geliştirilmiş bir ürün yönetim mikroservisidir.
+
+## kullanılan Teknolojiler
+- **.NET 8 Web API**
+- **Entity Framework Core** (SQL Server)
+- **MediatR** (CQRS Pattern)
+- **FluentValidation** (Pipeline Behavior ile otomatik doğrulama)
+- **AutoMapper** (DTO Mapping)
+- **Serilog** (File & Console Logging)
+
+## Mimari Yapı
+Proje **Onion Architecture** prensiplerine uygun olarak katmanlandırılmıştır:
+- **Core (Domain & Application):** İş kuralları ve mantığı.
+- **Infrastructure:** Veritabanı ve dış servis entegrasyonları.
+- **Presentation (API):** Dış dünyaya açılan arayüz.
+
+## Kurulum
+1. `appsettings.json` dosyasındaki ConnectionString'i kendi yerel SQL Server adresinize göre güncelleyin.
+2. Package Manager Console üzerinden `Update-Database` komutunu çalıştırın.
+3. Projeyi çalıştırdığınızda Swagger arayüzü otomatik olarak açılacaktır.

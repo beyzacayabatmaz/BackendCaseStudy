@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/README.md/">
+    <File Path="TextFile1.txt" />
+  </Folder>
+  <Project Path="../ProductService.Tests/ProductService.Tests.csproj" />
+  <Project Path="../ProductService/ProductService.csproj" />
+  <Project Path="AuthService/AuthService.csproj" Id="f21ee9dc-1ddb-4c47-9a87-4fb622189051" />
+  <Project Path="LogService/LogService.csproj" Id="a9b71413-05af-44d9-94b9-c2282e224ec1" />
+</Solution>
