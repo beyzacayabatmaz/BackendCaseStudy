@@ -1,0 +1,575 @@
+2026-03-24 17:46:21.027 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 17:46:21.078 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 17:46:21.139 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 17:46:21.140 +03:00 [INF] Hosting environment: Development
+2026-03-24 17:46:21.141 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 18:28:37.119 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 18:28:37.160 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 18:28:37.210 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 18:28:37.212 +03:00 [INF] Hosting environment: Development
+2026-03-24 18:28:37.215 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 20:38:10.504 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 20:38:10.552 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 20:38:10.616 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 20:38:10.618 +03:00 [INF] Hosting environment: Development
+2026-03-24 20:38:10.619 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 20:38:28.876 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/ - null null
+2026-03-24 20:38:29.026 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/ - 307 null null 157.831ms
+2026-03-24 20:38:29.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:38:29.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 10.0795ms
+2026-03-24 20:38:29.101 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:38:32.450 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:38:32.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 8.8431ms
+2026-03-24 20:38:32.463 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:39:51.400 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger - null null
+2026-03-24 20:39:51.412 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger - 301 null null 11.754ms
+2026-03-24 20:39:51.416 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.html - null null
+2026-03-24 20:39:51.480 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.html - 304 null null 64.5819ms
+2026-03-24 20:39:51.501 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - null null
+2026-03-24 20:39:51.506 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.css - null null
+2026-03-24 20:39:51.508 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-24 20:39:51.510 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.js - null null
+2026-03-24 20:39:51.507 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - null null
+2026-03-24 20:39:51.554 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.js - 304 null null 43.0192ms
+2026-03-24 20:39:51.547 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-24 20:39:51.564 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_vs/browserLink - null null
+2026-03-24 20:39:51.566 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - 304 null null 58.2007ms
+2026-03-24 20:39:51.566 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.css - 304 null null 59.9574ms
+2026-03-24 20:39:51.566 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - 304 null null 65.0523ms
+2026-03-24 20:39:51.597 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - 304 null null 90.2298ms
+2026-03-24 20:39:51.596 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 49.4647ms
+2026-03-24 20:39:51.637 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.4944ms
+2026-03-24 20:39:52.002 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - null null
+2026-03-24 20:39:52.018 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.1337ms
+2026-03-24 20:40:33.438 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 60
+2026-03-24 20:40:33.442 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 4.7509ms
+2026-03-24 20:40:33.456 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 20:40:33.459 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:40:33.461 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:40:33.462 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 5.9022ms
+2026-03-24 20:42:03.490 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 60
+2026-03-24 20:42:03.494 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 4.0804ms
+2026-03-24 20:42:03.496 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 20:42:03.504 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:42:03.506 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:42:03.507 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 10.5592ms
+2026-03-24 20:42:10.303 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/api/Products - null null
+2026-03-24 20:42:10.314 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/api/Products - 307 0 null 10.6663ms
+2026-03-24 20:42:10.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/Products - null null
+2026-03-24 20:42:10.323 +03:00 [INF] Executing endpoint 'ProductService.Controllers.ProductsController.GetAll (ProductService)'
+2026-03-24 20:42:10.348 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductsController (ProductService).
+2026-03-24 20:42:10.376 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-24 20:42:11.407 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 20:42:11.893 +03:00 [ERR] An error occurred using the connection to database '' on server ''.
+2026-03-24 20:42:11.919 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ProductService.Infrastructure.Persistence.ApplicationDbContext'.
+System.InvalidOperationException: ConnectionString özelliği başlatılmamış.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(SqlConnectionOverrides overrides, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: ConnectionString özelliği başlatılmamış.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(SqlConnectionOverrides overrides, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-03-24 20:46:16.331 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 20:46:16.376 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 20:46:16.440 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 20:46:16.442 +03:00 [INF] Hosting environment: Development
+2026-03-24 20:46:16.444 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 20:46:46.071 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/ - null null
+2026-03-24 20:46:46.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/ - 307 null null 148.3155ms
+2026-03-24 20:46:46.277 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:46:46.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 11.701ms
+2026-03-24 20:46:46.297 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:46:58.125 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:46:58.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 8.0246ms
+2026-03-24 20:46:58.136 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:46:58.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:46:58.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 4.3564ms
+2026-03-24 20:46:58.655 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:47:16.105 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 20:47:16.135 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 20:47:16.176 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 20:47:16.177 +03:00 [INF] Hosting environment: Development
+2026-03-24 20:47:16.178 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 20:47:39.358 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/ - null null
+2026-03-24 20:47:39.455 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/ - 307 null null 98.3259ms
+2026-03-24 20:47:39.502 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:47:39.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 7.8285ms
+2026-03-24 20:47:39.517 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:47:50.275 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/ - null null
+2026-03-24 20:47:50.282 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/ - 307 null null 7.3024ms
+2026-03-24 20:47:50.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/ - null null
+2026-03-24 20:47:50.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/ - 404 null null 4.1081ms
+2026-03-24 20:47:50.297 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7028/, Response status code: 404
+2026-03-24 20:47:54.929 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/ - null null
+2026-03-24 20:47:54.936 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/ - 307 null null 6.6248ms
+2026-03-24 20:47:58.629 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.html - null null
+2026-03-24 20:47:58.693 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.html - 304 null null 64.0327ms
+2026-03-24 20:47:58.712 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - null null
+2026-03-24 20:47:58.716 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.css - null null
+2026-03-24 20:47:58.718 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - null null
+2026-03-24 20:47:58.718 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-24 20:47:58.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.js - null null
+2026-03-24 20:47:58.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-24 20:47:58.727 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.js - 304 null null 8.851ms
+2026-03-24 20:47:58.731 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.css - 304 null null 14.8437ms
+2026-03-24 20:47:58.731 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - 304 null null 12.3096ms
+2026-03-24 20:47:58.731 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - 304 null null 18.6885ms
+2026-03-24 20:47:58.732 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 13.1218ms
+2026-03-24 20:47:58.733 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_vs/browserLink - null null
+2026-03-24 20:47:58.736 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - 304 null null 17.3558ms
+2026-03-24 20:47:58.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.6951ms
+2026-03-24 20:47:59.158 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - null null
+2026-03-24 20:47:59.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.8411ms
+2026-03-24 20:48:26.106 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 60
+2026-03-24 20:48:26.113 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 5.7769ms
+2026-03-24 20:48:26.132 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 20:48:26.140 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:48:26.142 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:48:26.143 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 11.0449ms
+2026-03-24 20:48:36.826 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/api/Products - null null
+2026-03-24 20:48:36.830 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/api/Products - 307 0 null 3.1316ms
+2026-03-24 20:48:36.833 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/Products - null null
+2026-03-24 20:48:36.835 +03:00 [INF] Executing endpoint 'ProductService.Controllers.ProductsController.GetAll (ProductService)'
+2026-03-24 20:48:36.852 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductsController (ProductService).
+2026-03-24 20:48:36.876 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-24 20:48:37.628 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 20:48:39.009 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 60
+2026-03-24 20:48:39.013 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 4.4827ms
+2026-03-24 20:48:39.017 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 20:48:39.021 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:48:39.022 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:48:39.023 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 6.0287ms
+2026-03-24 20:48:48.211 +03:00 [ERR] An error occurred using the connection to database 'ProductDb' on server '.'.
+2026-03-24 20:48:48.246 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ProductService.Infrastructure.Persistence.ApplicationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ProductDb" requested by the login. The login failed.
+Login failed for user 'Bç\byzca'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:9a183e34-2ed9-4a5a-84a4-e313c92d54bb
+Hata Numarası: 4060,Durum: 1,Sınıf:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ProductDb" requested by the login. The login failed.
+Login failed for user 'Bç\byzca'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:9a183e34-2ed9-4a5a-84a4-e313c92d54bb
+Hata Numarası: 4060,Durum: 1,Sınıf:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-03-24 20:48:48.260 +03:00 [INF] Executed action ProductService.Controllers.ProductsController.GetAll (ProductService) in 11403.5429ms
+2026-03-24 20:48:48.262 +03:00 [INF] Executed endpoint 'ProductService.Controllers.ProductsController.GetAll (ProductService)'
+2026-03-24 20:48:48.267 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ProductDb" requested by the login. The login failed.
+Login failed for user 'Bç\byzca'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:9a183e34-2ed9-4a5a-84a4-e313c92d54bb
+Hata Numarası: 4060,Durum: 1,Sınıf:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ProductService.Core.Application.Products.Queries.GetAllProductsQueryHandler.Handle(GetAllProductsQuery request, CancellationToken cancellationToken) in C:\Users\byzca\source\repos\ProductService\Core\Application\Products\Queries\GetAllProductsQuery.cs:line 42
+   at ProductService.Core.Application.Common.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\byzca\source\repos\ProductService\Core\Application\Common\ValidationBehavior.cs:line 31
+   at ProductService.Controllers.ProductsController.GetAll() in C:\Users\byzca\source\repos\ProductService\Controllers\ProductsController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-24 20:48:48.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/api/Products - 500 null text/plain; charset=utf-8 11473.7115ms
+2026-03-24 20:57:07.808 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 20:57:07.880 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 20:57:07.967 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 20:57:07.968 +03:00 [INF] Hosting environment: Development
+2026-03-24 20:57:07.970 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 20:57:32.410 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.html - null null
+2026-03-24 20:57:32.607 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.html - 304 null null 202.8058ms
+2026-03-24 20:57:32.634 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - null null
+2026-03-24 20:57:32.637 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.css - null null
+2026-03-24 20:57:32.640 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-24 20:57:32.640 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.js - null null
+2026-03-24 20:57:32.639 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - null null
+2026-03-24 20:57:32.649 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-24 20:57:32.663 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.js - 304 null null 22.7431ms
+2026-03-24 20:57:32.671 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_vs/browserLink - null null
+2026-03-24 20:57:32.673 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 23.8203ms
+2026-03-24 20:57:32.679 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.css - 304 null null 42.3174ms
+2026-03-24 20:57:32.679 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - 304 null null 39.2643ms
+2026-03-24 20:57:32.679 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - 304 null null 45.6956ms
+2026-03-24 20:57:32.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - 304 null null 43.4477ms
+2026-03-24 20:57:32.710 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.9312ms
+2026-03-24 20:57:32.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - null null
+2026-03-24 20:57:32.890 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/favicon-32x32.png - null null
+2026-03-24 20:57:32.895 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/favicon-32x32.png - 304 null null 4.548ms
+2026-03-24 20:57:32.900 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.835ms
+2026-03-24 20:58:05.344 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 60
+2026-03-24 20:58:05.352 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 8.0934ms
+2026-03-24 20:58:05.425 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 20:58:05.437 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:58:05.440 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 20:58:05.442 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 17.2377ms
+2026-03-24 20:58:12.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/api/Products - null null
+2026-03-24 20:58:12.255 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/api/Products - 307 0 null 4.9184ms
+2026-03-24 20:58:12.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/api/Products - null null
+2026-03-24 20:58:12.262 +03:00 [INF] Executing endpoint 'ProductService.Controllers.ProductsController.GetAll (ProductService)'
+2026-03-24 20:58:12.289 +03:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductService.Controllers.ProductsController (ProductService).
+2026-03-24 20:58:12.316 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-24 20:58:13.292 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 20:58:24.077 +03:00 [ERR] An error occurred using the connection to database 'ProductDb' on server '.'.
+2026-03-24 20:58:24.120 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ProductService.Infrastructure.Persistence.ApplicationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ProductDb" requested by the login. The login failed.
+Login failed for user 'Bç\byzca'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:65e406a2-a3a4-47de-b272-fcdec0a0d9b8
+Hata Numarası: 4060,Durum: 1,Sınıf:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ProductDb" requested by the login. The login failed.
+Login failed for user 'Bç\byzca'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:65e406a2-a3a4-47de-b272-fcdec0a0d9b8
+Hata Numarası: 4060,Durum: 1,Sınıf:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-03-24 21:35:28.379 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 21:35:36.723 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 21:40:53.098 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 21:42:07.515 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 21:43:29.051 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 21:43:29.649 +03:00 [INF] Executed DbCommand (273ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [ProductDb];
+2026-03-24 21:43:29.746 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProductDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-03-24 21:43:29.768 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-24 21:43:29.773 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-03-24 21:43:29.802 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2026-03-24 21:43:29.873 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2026-03-24 21:43:29.882 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-03-24 21:43:29.884 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-24 21:43:29.912 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-24 21:43:29.923 +03:00 [INF] Applying migration '20260323145554_InitialCreate'.
+2026-03-24 21:43:29.955 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [Stock] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2026-03-24 21:43:30.008 +03:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CreatedDate', N'Name', N'Price', N'Stock') AND [object_id] = OBJECT_ID(N'[Products]'))
+    SET IDENTITY_INSERT [Products] ON;
+INSERT INTO [Products] ([Id], [CreatedDate], [Name], [Price], [Stock])
+VALUES (1, '0001-01-01T00:00:00.0000000', N'Akıllı Saat', 3500.0, 50),
+(2, '0001-01-01T00:00:00.0000000', N'Kablosuz Kulaklık', 1200.0, 100),
+(3, '0001-01-01T00:00:00.0000000', N'Oyuncu Mouse', 850.0, 30);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CreatedDate', N'Name', N'Price', N'Stock') AND [object_id] = OBJECT_ID(N'[Products]'))
+    SET IDENTITY_INSERT [Products] OFF;
+2026-03-24 21:43:30.011 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260323145554_InitialCreate', N'10.0.5');
+2026-03-24 21:43:30.018 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2026-03-24 21:45:52.539 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 21:45:52.587 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 21:45:52.653 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 21:45:52.655 +03:00 [INF] Hosting environment: Development
+2026-03-24 21:45:52.656 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 21:46:04.432 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.html - null null
+2026-03-24 21:46:04.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.html - 200 null text/html;charset=utf-8 226.3196ms
+2026-03-24 21:46:04.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.css - null null
+2026-03-24 21:46:04.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - null null
+2026-03-24 21:46:04.677 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-24 21:46:04.677 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - null null
+2026-03-24 21:46:04.677 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.js - null null
+2026-03-24 21:46:04.677 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-24 21:46:04.699 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 21.6962ms
+2026-03-24 21:46:04.701 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.js - 304 null null 23.3703ms
+2026-03-24 21:46:04.708 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_vs/browserLink - null null
+2026-03-24 21:46:04.714 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - 304 null null 36.9122ms
+2026-03-24 21:46:04.714 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.css - 304 null null 41.9454ms
+2026-03-24 21:46:04.718 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - 304 null null 40.4567ms
+2026-03-24 21:46:04.714 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - 304 null null 41.9577ms
+2026-03-24 21:46:04.755 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0071ms
+2026-03-24 21:46:05.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - null null
+2026-03-24 21:46:05.163 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.9164ms
+2026-03-24 21:46:05.178 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/favicon-32x32.png - null null
+2026-03-24 21:46:05.183 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/favicon-32x32.png - 304 null null 5.8062ms
+2026-03-24 21:49:08.634 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 21:49:08.644 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 9.2892ms
+2026-03-24 21:49:08.706 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 21:49:08.713 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 21:49:08.716 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 21:49:08.718 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 11.9332ms
+2026-03-24 21:49:22.515 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 21:49:22.519 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 4.2704ms
+2026-03-24 21:49:22.524 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 21:49:22.526 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 21:49:22.527 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 21:49:22.529 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 4.8892ms
+2026-03-24 21:49:23.218 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 21:49:23.222 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 3.9049ms
+2026-03-24 21:49:23.225 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 21:49:23.229 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 21:49:23.231 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 21:49:23.233 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 7.9118ms
+2026-03-24 22:00:48.324 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 22:00:48.372 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 22:00:48.441 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 22:00:48.443 +03:00 [INF] Hosting environment: Development
+2026-03-24 22:00:48.444 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 22:01:18.208 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 22:01:18.273 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 72.3973ms
+2026-03-24 22:01:18.338 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 22:01:18.347 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:01:18.349 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:01:18.351 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 13.9602ms
+2026-03-24 22:01:22.719 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 22:01:22.725 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 6.199ms
+2026-03-24 22:01:22.730 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 22:01:22.732 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:01:22.733 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:01:22.734 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 4.1111ms
+2026-03-24 22:07:32.581 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 22:07:32.650 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 22:07:32.735 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 22:07:32.737 +03:00 [INF] Hosting environment: Development
+2026-03-24 22:07:32.739 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 22:09:36.061 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 22:09:36.103 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 22:09:36.176 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 22:09:36.177 +03:00 [INF] Hosting environment: Development
+2026-03-24 22:09:36.179 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 22:15:11.703 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 22:15:11.782 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 90.0322ms
+2026-03-24 22:15:11.860 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 22:15:11.871 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:15:11.872 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:15:11.874 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 13.7305ms
+2026-03-24 22:15:17.838 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 22:15:17.844 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 6.4703ms
+2026-03-24 22:15:17.848 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 22:15:17.850 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:15:17.851 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:15:17.852 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 4.3155ms
+2026-03-24 22:21:12.583 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 22:21:12.624 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 22:21:12.676 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 22:21:12.680 +03:00 [INF] Hosting environment: Development
+2026-03-24 22:21:12.681 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 22:21:15.162 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5228/api/Products - application/json 66
+2026-03-24 22:21:15.239 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5228/api/Products - 307 0 null 88.2625ms
+2026-03-24 22:21:15.304 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7028/api/Products - null null
+2026-03-24 22:21:15.312 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:21:15.315 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-24 22:21:15.316 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7028/api/Products - 405 0 null 13.1252ms
+2026-03-24 22:26:58.122 +03:00 [INF] Now listening on: https://localhost:7028
+2026-03-24 22:26:58.182 +03:00 [INF] Now listening on: http://localhost:5228
+2026-03-24 22:26:58.257 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-24 22:26:58.258 +03:00 [INF] Hosting environment: Development
+2026-03-24 22:26:58.260 +03:00 [INF] Content root path: C:\Users\byzca\source\repos\ProductService
+2026-03-24 22:30:42.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger - null null
+2026-03-24 22:30:42.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger - 301 null null 165.9903ms
+2026-03-24 22:30:42.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - null null
+2026-03-24 22:30:43.054 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - 304 null null 59.705ms
+2026-03-24 22:30:43.092 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/swagger-ui.css - null null
+2026-03-24 22:30:43.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.css - null null
+2026-03-24 22:30:43.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/swagger-ui-bundle.js - null null
+2026-03-24 22:30:43.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-24 22:30:43.143 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.js - null null
+2026-03-24 22:30:43.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/_vs/browserLink - null null
+2026-03-24 22:30:43.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-24 22:30:43.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.js - 200 null application/javascript;charset=utf-8 52.5144ms
+2026-03-24 22:30:43.214 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.css - 200 152 text/css 114.2436ms
+2026-03-24 22:30:43.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 50.1513ms
+2026-03-24 22:30:43.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/swagger-ui.css - 200 26388 text/css 145.355ms
+2026-03-24 22:30:43.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 138.3213ms
+2026-03-24 22:30:43.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 145.482ms
+2026-03-24 22:30:43.273 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.3557ms
+2026-03-24 22:30:43.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - null null
+2026-03-24 22:30:43.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.9513ms
+2026-03-24 22:31:25.559 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7028/api/Products - application/json 159
+2026-03-24 22:31:25.571 +03:00 [INF] Executing endpoint 'ProductService.Controllers.ProductsController.Create (ProductService)'
+2026-03-24 22:31:25.625 +03:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ProductService.Core.Application.Products.Commands.CreateProductCommand) on controller ProductService.Controllers.ProductsController (ProductService).
+2026-03-24 22:31:25.669 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-24 22:31:27.503 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-24 22:31:28.610 +03:00 [INF] Executed DbCommand (138ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CreatedDate], [Name], [Price], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-03-24 22:31:29.498 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2026-03-24 22:31:29.508 +03:00 [INF] Executed action ProductService.Controllers.ProductsController.Create (ProductService) in 3871.3968ms
+2026-03-24 22:31:29.511 +03:00 [INF] Executed endpoint 'ProductService.Controllers.ProductsController.Create (ProductService)'
+2026-03-24 22:31:29.522 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7028/api/Products - 200 null application/json; charset=utf-8 3962.5547ms
