@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Çözüm Öğeleri/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="AuthService.API/AuthService.API.csproj" />
+  <Project Path="AuthService.Application/AuthService.Application.csproj" />
+  <Project Path="AuthService.Core/AuthService.Core.csproj" />
+  <Project Path="Gateway.API/Gateway.API.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Persistence/Persistence.csproj" />
+  <Project Path="ProductService.Application/ProductService.Application.csproj" />
+  <Project Path="ProductService.Core/ProductService.Core.csproj" />
+  <Project Path="ProductService.Persistence/ProductService.Persistence.csproj" />
+</Solution>
