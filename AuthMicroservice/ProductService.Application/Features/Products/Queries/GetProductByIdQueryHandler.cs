@@ -16,7 +16,7 @@ public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, P
 
     public async Task<Product> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
     {
-        // Veritabanında ID'ye göre arama yapıyoruz
+        
         return await _context.Products.AsNoTracking().FirstOrDefaultAsync(p => p.Id == request.Id, cancellationToken);
     }
 }

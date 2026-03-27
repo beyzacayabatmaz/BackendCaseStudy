@@ -7,13 +7,13 @@ using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. Veritabanı Bağlantısı
+
 builder.Services.AddDbContext<OrderDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
 
-// 2. Authentication (Kimlik Doğrulama) Ayarları - JWT
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -29,17 +29,17 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// 3. Authorization (Yetkilendirme) ve Policy Ayarları
+
 builder.Services.AddAuthorization(options =>
 {
-    // Role-Based Yetkilendirme (Örn: Sadece Admin)
+    
     options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
 
-    // Policy-Based Yetkilendirme (Örn: IT Departmanı)
+   
     options.AddPolicy("ITDepartmentOnly", policy => policy.RequireClaim("Department", "IT"));
 });
 
-// 4. RabbitMQ ve MassTransit Konfigürasyonu (Event-Driven Mimari)
+
 builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq((context, cfg) =>
@@ -51,13 +51,13 @@ builder.Services.AddMassTransit(x =>
     });
 });
 
-// Swagger (Test Ekranı) Ayarları
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Tarayıcıda Swagger'ı Göster
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -66,7 +66,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// KİMLİK DOĞRULAMA VE YETKİLENDİRME SIRALAMASI ÇOK ÖNEMLİ
+
 app.UseAuthentication();
 app.UseAuthorization();
 

@@ -17,16 +17,16 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
     {
         var product = new Product
         {
-            // Id satırını sildik, SQL kendisi verecek.
+          
             Name = request.Name,
             Price = request.Price,
             Stock = request.Stock,
-            CreatedDate = DateTime.Now // Opsiyonel, zaten entity'de default var.
+            CreatedDate = DateTime.Now 
         };
 
         _context.Products.Add(product);
         await _context.SaveChangesAsync(cancellationToken);
 
-        return product.Id; // Kayıttan sonra oluşan int ID'yi döner.
+        return product.Id; 
     }
 }

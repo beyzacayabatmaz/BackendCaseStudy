@@ -16,7 +16,7 @@ public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, L
 
     public async Task<List<Product>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
-        // Veritabanından ürünleri çekiyoruz
+       
         return await _context.Products.ToListAsync(cancellationToken);
 
     }

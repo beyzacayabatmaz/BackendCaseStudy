@@ -27,7 +27,7 @@ public class ProductsController : ControllerBase
         return Ok(result);
     }
 
-    // ADRESİ ELİMİZLE TAM YAZDIK (GARANTİ YÖNTEM)
+    
     [HttpGet("/api/Products/{id:int}")]
     public async Task<IActionResult> GetById(int id)
     {

@@ -16,14 +16,14 @@ public class ProductsController : ControllerBase
         _mediator = mediator;
     }
 
-    // 1. Durum Kontrolü (Ping)
+    
     [HttpGet("ping")]
     public IActionResult Ping()
     {
         return Ok("Product API Ayakta!");
     }
 
-    // 2. Tüm Ürünleri Listele (Read - List)
+    
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -32,8 +32,7 @@ public class ProductsController : ControllerBase
         return Ok(result);
     }
 
-    // 3. Tek Bir Ürünü Getir (Read - Detail) - GÜNCELLENDİ
-    // Buradaki "{id}" başına / koymuyoruz ama route yapısını netleştiriyoruz
+
     [HttpGet("{id:int}")]
     public async Task<IActionResult> GetById(int id)
     {
@@ -44,7 +43,7 @@ public class ProductsController : ControllerBase
         return Ok(result);
     }
 
-    // 4. Yeni Ürün Ekle (Create)
+    
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateProductCommand command)
     {
@@ -52,7 +51,7 @@ public class ProductsController : ControllerBase
         return Ok(result);
     }
 
-    // 5. Ürün Güncelle (Update)
+  
     [HttpPut]
     public async Task<IActionResult> Update([FromBody] UpdateProductCommand command)
     {
@@ -63,7 +62,7 @@ public class ProductsController : ControllerBase
         return NotFound("Güncellenecek ürün bulunamadı.");
     }
 
-    // 6. Ürün Sil (Delete)
+    
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {

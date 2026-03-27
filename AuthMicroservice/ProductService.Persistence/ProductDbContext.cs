@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore; // Bu satır olmazsa DbContext hata verir
+﻿using Microsoft.EntityFrameworkCore; 
 using ProductService.Core.Entities;
 using System.Reflection.Emit;
 

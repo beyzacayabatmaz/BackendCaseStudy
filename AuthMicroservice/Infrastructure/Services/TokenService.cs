@@ -21,13 +21,13 @@ namespace Infrastructure.Services
 
         public string GenerateAccessToken(AppUser user)
         {
-            // Olası 'null' uyarısını engellemek için güvenlik önlemi alıyoruz
+            
             var keyString = _configuration["Jwt:SecurityKey"] ?? string.Empty;
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keyString));
 
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            // User bilgileri null gelme ihtimaline karşı ToString() veya string.Empty atamaları yapıyoruz
+            
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id ?? string.Empty),
@@ -35,7 +35,7 @@ namespace Infrastructure.Services
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
-            // Token'ın diğer ayarlarını da null kontrolü ile çekiyoruz
+            
             var issuer = _configuration["Jwt:Issuer"] ?? string.Empty;
             var audience = _configuration["Jwt:Audience"] ?? string.Empty;
 

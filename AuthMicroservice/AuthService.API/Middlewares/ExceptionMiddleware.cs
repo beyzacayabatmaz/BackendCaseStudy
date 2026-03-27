@@ -20,7 +20,7 @@ namespace AuthService.API.Middlewares
             }
             catch (Exception ex)
             {
-                // Hata oluştuğu anda Serilog ile log.txt dosyasına yazıyoruz
+                
                 Log.Error($"Bir hata olustu: {ex.Message}");
 
                 await HandleExceptionAsync(httpContext, ex);
