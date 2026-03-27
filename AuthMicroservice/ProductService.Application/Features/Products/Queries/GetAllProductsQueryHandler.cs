@@ -18,5 +18,6 @@ public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, L
     {
         // Veritabanından ürünleri çekiyoruz
         return await _context.Products.ToListAsync(cancellationToken);
+
     }
 }

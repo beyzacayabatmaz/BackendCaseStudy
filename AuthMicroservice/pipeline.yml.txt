@@ -1,0 +1,27 @@
+name: .NET CI/CD Pipeline
+
+# Bu pipeline, kodlar test veya prod branch'ine gönderildiğinde otomatik çalışır
+on:
+  push:
+    branches: [ "test/v1.0.0", "prod/v1.0.0" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+        
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build --no-restore -c Release
+      
+    - name: Docker Build Test
+      run: docker build -t orderservice -f OrderService.API/Dockerfile .

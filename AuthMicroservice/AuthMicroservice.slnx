@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/CI-CD/">
+    <File Path="pipeline.yml.txt" />
+  </Folder>
   <Folder Name="/Çözüm Öğeleri/">
     <File Path="README.md" />
   </Folder>
@@ -7,6 +10,7 @@
   <Project Path="AuthService.Core/AuthService.Core.csproj" />
   <Project Path="Gateway.API/Gateway.API.csproj" />
   <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="OrderService.API/OrderService.API.csproj" Id="4289303e-40c0-40a8-bbbd-360d7f835a4f" />
   <Project Path="Persistence/Persistence.csproj" />
   <Project Path="ProductService.API/ProductService.API.csproj" Id="4986c716-db8c-480e-8b08-4dbb6cdf1ffd" />
   <Project Path="ProductService.Application/ProductService.Application.csproj" />

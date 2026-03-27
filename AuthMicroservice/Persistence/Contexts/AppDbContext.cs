@@ -1,21 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AuthService.Core.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace Persistence.Contexts
+namespace Persistence.Contexts;
+
+public class AppDbContext : DbContext
 {
-    public class AppDbContext : IdentityDbContext<AppUser>
-    {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-        {
-        }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-        }
-    }
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    // Eğer Auth için tabloların varsa onlar buradaydı, şimdilik böyle kalması hatayı çözer
 }
